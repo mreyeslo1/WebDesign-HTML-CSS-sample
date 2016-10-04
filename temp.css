@@ -1,0 +1,68 @@
+
+header{
+  text-align: center;
+  color: white;
+  font: "Droid Sans";
+  font-size: 50px;
+  background-color: grey;
+}
+
+#menu-outer{
+  height: 120px;
+  background-color: grey;
+
+}
+
+.table{
+  display: table;
+  margin: 0 auto;
+
+}
+#menu-outer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+#menu-outer li {
+    display:inline-block
+
+  }
+#menu-outer li a {
+    display: block;
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+}
+#menu-outer li a:hover {
+    background-color: #111111;
+}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 600px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}
+    }
+
